@@ -159,7 +159,6 @@ textarea {
 .main-menu-container {
     background: #080f3a;
 }
-
 .main-menu {
     list-style: none;
     margin-top: 0;
@@ -168,14 +167,17 @@ textarea {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 .main-menu li {
     float: left;
     text-transform: uppercase;
     text-align: center;
     line-height: 60px;
+    position: relative;
 }
-
+.main-menu li:last-child a {
+    margin-left: 10px;
+    margin-right: 9px;
+}
 .main-menu li::before {
     content: "|";
     float: left;
@@ -186,7 +188,6 @@ textarea {
     content: "|";
     color: #fff;
 }
-
 .main-menu a {
     color: #fff;
     text-decoration: none;
@@ -196,17 +197,15 @@ textarea {
     line-height: 60px;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 13px;
+    font-size: 12px;
 }
 .main-menu li:first-child a,
 .main-menu li:last-child a {
     width: 142px;
 }
-
 .main-menu a:hover {
     background: #c42026;
 }
-
 .main-menu a span {
     line-height: normal;
     display: table-cell;
@@ -214,6 +213,54 @@ textarea {
     vertical-align: middle;
     text-align: center;
     width: 140px;
+}
+.main-menu li:hover ul {
+    display: block;
+}
+.main-menu ul {
+    width: 155px;
+    position: absolute;
+    list-style: none;
+    background: rgba(255,255,255,0.7);
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 5px;
+    display: none;
+    border: 5px solid rgba(0,0,0,0.7);
+}
+.main-menu ul li {
+    text-transform: none;
+    border-bottom: 1px solid #000;
+    line-height: normal;
+    width: 155px;
+}
+.main-menu ul li:last-child {
+    border-bottom: none;
+}
+.main-menu ul li::before,
+.main-menu ul li:last-child::after {
+    content: "";
+}
+.main-menu li:first-child ul a,
+.main-menu ul li:last-child a,
+.main-menu ul li:first-child a,
+.main-menu li:last-child li a,
+.main-menu ul li a {
+    width: 135px;
+}
+.main-menu ul li a {
+    line-height: normal;
+    padding: 10px 10px;
+    margin: 0;
+    color: #080f3a;
+}
+.main-menu ul li:last-child a,
+.main-menu li:last-child li a {
+    margin: 0;
+}
+.main-menu ul li a:hover {
+    color: #fff;
 }
 
 /* ==========================================================================
