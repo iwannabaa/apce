@@ -176,7 +176,8 @@ textarea {
 }
 .main-menu li:last-child a {
     margin-left: 10px;
-    margin-right: 9px;
+    margin-right: 10px;
+    width: 131px;
 }
 .main-menu li::before {
     content: "|";
@@ -198,10 +199,6 @@ textarea {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 12px;
-}
-.main-menu li:first-child a,
-.main-menu li:last-child a {
-    width: 142px;
 }
 .main-menu a:hover {
     background: #c42026;
