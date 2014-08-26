@@ -369,11 +369,17 @@ textarea {
     border-top: 5px solid #c42026;
     padding: 10px 0 0;
 }
-.school-image {
+.school-horizontes .school-image {
     height: 640px;
     background: url('../img/hero-horizontes.jpg');
     border-top: 10px solid #080f3a;
     border-bottom: 20px solid #080f3a;
+}
+.school-floresta .school-image {
+    height: 640px;
+    background: url('../img/hero-floresta.jpg');
+    border-top: 10px solid #080f3a;
+    border-bottom: 20px solid #c12026;
 }
 .school-info {
     background: #080f3a;
@@ -386,6 +392,9 @@ textarea {
     font-size: 12px;
     box-shadow: 0 5px 15px #000;
     padding-bottom: 80px;
+}
+.school-floresta .school-info {
+    background: #c12026;
 }
 .school-info h2,
 .school-info h3 {
@@ -427,7 +436,7 @@ textarea {
     margin-top: -20px;
     margin-right: 20px;
 }
-.school-bottom-info h2 {
+.school-bottom-info .banner {
     position: absolute;
     width: 960px;
     bottom: 20px;
@@ -440,11 +449,29 @@ textarea {
     color: #fff;
     text-transform: uppercase;
 }
+.school-bottom-info .floresta-title {
+    padding-top: 60px;
+    color: #c42026;
+    margin-left: 390px;
+}
+.school-bottom-info .floresta-title h1 {
+    font-size: 38px;
+    font-weight: lighter;
+}
+.school-bottom-info .floresta-title h2 {
+    font-weight: lighter;
+    margin-left: 40px;
+}
 .school-bottom-info .horizontes-kids {
     position: absolute;
     bottom: 0;
     z-index: 2;
     margin-left: 100px;
+}
+.school-bottom-info .floresta-bottom-banner {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
 }
 
 /* ==========================================================================
