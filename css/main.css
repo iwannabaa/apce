@@ -267,8 +267,9 @@ textarea {
 .main-content {
     
 }
-
-.section-history {
+.hero-container img {
+    display: block;
+    margin: 20px auto;
 }
 .section-history .hero-container {
     border-bottom: 2px solid #c42026;
@@ -363,6 +364,87 @@ textarea {
 }
 .section-mision .main-copy h1:nth-child(2n) {
     margin-top: 100px;
+}
+.school-image-wrapper {
+    border-top: 5px solid #c42026;
+    padding: 10px 0 0;
+}
+.school-image {
+    height: 640px;
+    background: url('../img/hero-horizontes.jpg');
+    border-top: 10px solid #080f3a;
+    border-bottom: 20px solid #080f3a;
+}
+.school-info {
+    background: #080f3a;
+    color: #fff;
+    padding: 20px;
+    width: 210px;
+    float: right;
+    margin-top: -25px;
+    margin-right: 10px;
+    font-size: 12px;
+    box-shadow: 0 5px 15px #000;
+    padding-bottom: 80px;
+}
+.school-info h2,
+.school-info h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.school-info h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+}
+.school-info h3 {
+    margin-top: 5px;
+    font-size: 34px;
+}
+.school-bottom-info {
+    height: 450px;
+    position: relative;
+}
+.school-bottom-info .school-bottom-aside {
+    width: 335px;
+    height: 480px;
+    background: #c42026;
+    margin-left: 10px;
+    float: left;
+    margin-top: -30px;
+}
+.school-bottom-info .horizontes-bottom-title {
+    width: 173px;
+    height: 73px;
+    background: url('../img/happy-kids.jpg') no-repeat;
+    text-indent: -999px;
+    position: absolute;
+    top: 0;
+    left: 370px;
+}
+.school-bottom-info .lettering {
+    float: right;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+.school-bottom-info h2 {
+    position: absolute;
+    width: 960px;
+    bottom: 20px;
+    font-size: 32px;
+    font-weight: normal;
+    text-align: left;
+    z-index: 1;
+    padding: 20px 0 20px 40px;
+    background: #080f3a;
+    color: #fff;
+    text-transform: uppercase;
+}
+.school-bottom-info .horizontes-kids {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    margin-left: 100px;
 }
 
 /* ==========================================================================
