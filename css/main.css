@@ -808,6 +808,49 @@ textarea {
     margin-bottom: 10px;
 }
 
+/* ==========================================================================
+    Programas
+   ========================================================================== */
+
+.section-programs .programas-primaria {
+    position: relative;
+    margin-top: 100px;
+    background: url(../img/primaria-bg.jpg) no-repeat center top;
+    padding-left: 100px;
+    padding-top: 100px;
+    color: #080f3a;
+    font-size: 14px;
+    min-height: 400px;
+    padding-right: 500px;
+}
+.section-programs .programas-primaria h1 {
+    width: 330px;
+    height: 102px;
+    background: url(../img/programa-ib.jpg) no-repeat;
+    text-indent: -9999px;
+    margin-left: 160px;
+    margin-top: -175px;
+    position: absolute;
+}
+.section-programs .programas-primaria .ib-diploma {
+    position: absolute;
+    right: 0;
+    top: 130px;
+    width: 253px;
+    background: url(../img/ib-diploma.jpg) no-repeat;
+    padding: 200px 20px 0 50px;
+    color: #fff;
+    text-align: center;
+    height: 306px;
+}
+.section-programs .programas-primaria ul {
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #c42026;
+}
+.section-programs .programas-primaria li {
+    margin-bottom: 10px;
+}
 
 /* ==========================================================================
     Footer
