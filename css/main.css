@@ -955,6 +955,8 @@ textarea {
 .section-diferenciada .diferenciada-info {
     background: url(../img/diferenciada-bg.jpg) no-repeat center 10px;
     font-size: 13px;
+    height: 1532px;
+    min-height: 1532px;
     max-height: 1532px;
 }
 .section-diferenciada .diferenciada-info h1 {
