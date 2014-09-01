@@ -1009,6 +1009,7 @@ textarea {
 /* ==========================================================================
     Oportunidades
    ========================================================================== */
+
 .section-oportunidades .hero-container h1 {
     width: 534px;
     height: 44px;
@@ -1063,6 +1064,54 @@ textarea {
 }
 .section-oportunidades .aside h2 {
     color: #fff;
+}
+
+/* ==========================================================================
+    Educacion Fisica
+   ========================================================================== */
+.section-fisica .content-wrapper {
+    background: url(../img/sports-bg.jpg) no-repeat 100px 200px;
+}
+.section-fisica .sports-info {
+    float: left;
+    width: 600px;
+    font-size: 13px;
+    padding-top: 40px;
+}
+.section-fisica .sports-info h1 {
+    width: 246px;
+    height: 80px;
+    text-indent: -9999px;
+    background: url(../img/educacion-fisica.jpg) no-repeat;
+    float: left;
+    margin-right: 20px;
+}
+.section-fisica .sports-floresta {
+    background: url(../img/sports-red.jpg) no-repeat;
+    width: 361px;
+    height: 895px;
+    float: right;
+}
+.section-fisica .sports-floresta img {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.section-fisica .sports-lamatepec {
+    clear: both;
+    float: left;
+    width: 360px;
+    height: 850px;
+    background: url(../img/sports-blue.jpg) no-repeat;
+    margin-top: -250px;
+}
+.section-fisica .sports-lamatepec img {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.section-fisica .bkb {
+    float: right;
+    margin-top: 26px;
+    margin-right: 100px;
 }
 
 /* ==========================================================================
