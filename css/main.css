@@ -1007,6 +1007,65 @@ textarea {
 }
 
 /* ==========================================================================
+    Oportunidades
+   ========================================================================== */
+.section-oportunidades .hero-container h1 {
+    width: 534px;
+    height: 44px;
+    text-indent: -9999px;
+    background: url(../img/oportunidades.jpg) no-repeat;
+}
+.section-oportunidades .hero-container img {
+    margin: 0;
+    border-top: 10px solid #080f3a;
+}
+.section-oportunidades .hero-container {
+    border-bottom: 10px solid #080f3a;
+}
+.section-oportunidades .main-copy {
+    width: 600px;
+    float: left;
+    font-size: 14px;
+    line-height: 24px;
+    color: #080f3a;
+}
+.section-oportunidades .main-copy .oportunidades-column {
+    width: 280px;
+    float: left;
+    margin-right: 20px;
+}
+.section-oportunidades .main-copy .oportunidades-column.column-last {
+    margin-right: 0;
+}
+.section-oportunidades .main-copy .oportunidades-column h2,
+.section-oportunidades .aside h2 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #c32026;
+    border-bottom: 3px solid #080f3a;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 24px;
+    line-height: 1.4;
+}
+.section-oportunidades .aside {
+    margin-left: 20px;
+    width: 300px;
+    background: #c32026;
+    float: left;
+    margin-top: -60px;
+    position: relative;
+    padding: 20px 40px 100px;
+    color: #fff;
+    line-height: 24px;
+    font-size: 14px;
+    box-shadow: -5px -1px 10px rgba(0,0,0, 0.6);
+}
+.section-oportunidades .aside h2 {
+    color: #fff;
+}
+
+/* ==========================================================================
     Footer
    ========================================================================== */
 
