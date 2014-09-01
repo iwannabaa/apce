@@ -836,9 +836,9 @@ textarea {
     position: absolute;
     right: 0;
     top: 130px;
-    width: 253px;
+    width: 243px;
     background: url(../img/ib-diploma.jpg) no-repeat;
-    padding: 200px 20px 0 50px;
+    padding: 200px 20px 0 60px;
     color: #fff;
     text-align: center;
     height: 306px;
@@ -850,6 +850,37 @@ textarea {
 }
 .section-programs .programas-primaria li {
     margin-bottom: 10px;
+}
+.section-programs .programas-secundaria .pep {
+    float: left;
+    width: 370px;
+    height: 460px;
+    background: url(../img/pep.png) no-repeat;
+    position: relative;
+    margin-top: -200px;
+    padding-top: 500px;
+    padding-left: 30px;
+    padding-right: 60px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+.section-programs .programas-secundaria .secundaria-info {
+    width: 408px;
+    height: 830px;
+    padding: 80px 20px 0 60px;
+    float: right;
+    background: url(../img/secundaria.jpg) no-repeat;
+    font-size: 14px;
+    color: #080f3a;
+}
+.section-programs .programas-secundaria .secundaria-info ul {
+    color: #c42026;
+    margin-top: 40px;
+    padding-right: 100px;
+}
+.section-programs .programas-secundaria .secundaria-info li {
+    margin-bottom: 15px;
 }
 
 /* ==========================================================================
