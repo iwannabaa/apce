@@ -225,6 +225,7 @@ textarea {
     border-radius: 5px;
     display: none;
     border: 5px solid rgba(0,0,0,0.7);
+    z-index: 10;
 }
 .main-menu ul li {
     text-transform: none;
@@ -881,6 +882,29 @@ textarea {
 }
 .section-programs .programas-secundaria .secundaria-info li {
     margin-bottom: 15px;
+}
+
+/* ==========================================================================
+    Formacion Humana
+   ========================================================================== */
+
+.section-bilingue .bilingue-info {
+    padding-top: 10px;
+    padding-right: 640px;
+    padding-left: 40px;
+    font-size: 13px;
+    color: #080f3a;
+    background: url(../img/bilingue.jpg) no-repeat right;
+    max-height: 1395px;
+    height: 1395px;
+    line-height: 26px;
+}
+.section-bilingue .bilingue-info h1 {
+    width: 315px;
+    height: 83px;
+    background: url(../img/bilingue-title.jpg) no-repeat;
+    text-indent: -9999px;
+    margin-left: -40px;
 }
 
 /* ==========================================================================
