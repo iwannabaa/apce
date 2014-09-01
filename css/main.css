@@ -908,6 +908,46 @@ textarea {
 }
 
 /* ==========================================================================
+    Personalizada
+   ========================================================================== */
+
+.section-personalizada .hero-container img {
+    margin: 0;
+}
+.section-personalizada .hero-container {
+    border-bottom: 5px solid #c42026;
+}
+.section-personalizada .main-copy {
+    width: 520px;
+    padding-right: 20px;
+    float: left;
+    padding-left: 40px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #080f3a;
+}
+.section-personalizada .main-copy h1 {
+    width: 547px;
+    height: 82px;
+    text-indent: -9999px;
+    margin-left: -40px;
+    background: url(../img/Personalizada-title.jpg) no-repeat;
+}
+.section-personalizada .aside {
+    width: 340px;
+    background: #c32026 url(../img/stripes.png) no-repeat center 95%;
+    float: left;
+    margin-top: -40px;
+    position: relative;
+    padding: 40px 40px 250px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 2;
+    font-style: italic;
+    box-shadow: -5px -1px 10px rgba(0,0,0, 0.6);
+}
+
+/* ==========================================================================
     Footer
    ========================================================================== */
 
