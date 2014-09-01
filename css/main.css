@@ -947,6 +947,63 @@ textarea {
     box-shadow: -5px -1px 10px rgba(0,0,0, 0.6);
 }
 
+
+/* ==========================================================================
+    Direfenciada
+   ========================================================================== */
+
+.section-diferenciada .diferenciada-info {
+    background: url(../img/diferenciada-bg.jpg) no-repeat center 10px;
+    font-size: 13px;
+    max-height: 1532px;
+}
+.section-diferenciada .diferenciada-info h1 {
+    margin-left: 100px;
+    width: 471px;
+    height: 77px;
+    text-indent: -9999px;
+    background: url(../img/diferenciada-title.jpg) no-repeat;
+}
+.section-diferenciada .diferenciada-info .diferenciada-intro {
+    width: 550px;
+    float: right;
+    margin-right: 40px;
+    line-height: 24px;
+}
+.section-diferenciada .diferenciada-info .diferenciada-intro p {
+    margin-bottom: 20px;
+}
+.section-diferenciada .diferenciada-info .diferenciada-highlight {
+    clear: both;
+    float: right;
+    text-align: center;
+    color: #fff;
+    background: #c42026;
+    width: 260px;
+    margin-right: 40px;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 2.6;
+    font-style: italic;
+}
+.section-diferenciada .diferenciada-list {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    clear: both;
+}
+.section-diferenciada .diferenciada-list .list-column {
+    width: 400px;
+    float: left;
+    font-size: 14px;
+    color: #080f3a;
+    padding-bottom: 60px;
+}
+.section-diferenciada .diferenciada-list .list-column li {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
 /* ==========================================================================
     Footer
    ========================================================================== */
