@@ -11,7 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        <link rel="stylesheet" href="js/vendor/nivo-slider/nivo-slider.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -73,11 +73,10 @@
         </div>
         <div class="main-content section-home">
             <div class="content-wrapper home-hero clearfix">
-                <div class="slideshow">
-                    <img src="img/slide-sample.jpg">
-                </div>
-                <div class="home-video">
-                    
+                <div class="slideshow nivoSlider" id="slider">
+                    <img src="img/slide-home.jpg">
+                    <img src="img/slide-home-2.jpg">
+                    <img src="img/slide-home-3.jpg">
                 </div>
             </div>
             <div class="content-wrapper clearfix">
@@ -116,18 +115,7 @@
                     </div>
                 </div>
                 <div class="home-news">
-                    <h2>Noticias</h2>
-                    <div class="news-item">
-                        <h3>Magna Phasellus</h3>
-                        <h4>Monday, January 21st</h4>
-                        <p class="excerpt">Vestassapede et donec ut est liberos sus et eget sed eget. Quisqueta habitur augue magnisl magna phasellus sagittitor ant curabiturpis</p>
-                    </div>
-                    <div class="news-item">
-                        <h3>Magna Phasellus</h3>
-                        <h4>Monday, January 21st</h4>
-                        <p class="excerpt">Vestassapede et donec ut est liberos sus et eget sed eget. Quisqueta habitur augue magnisl magna phasellus sagittitor ant curabiturpis</p>
-                    </div>
-                    <p class="full-news-link"><a href="#">View All Latest News &amp; Events</a></p>
+                    <a href="#"><img src="img/porque-elegirnos.png" alt="Por qu&eacute; elegirnos?" class="razones"></a>
                 </div>
             </div>
         </div>
@@ -200,6 +188,7 @@
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/nivo-slider/jquery.nivo.slider.pack.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
