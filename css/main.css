@@ -1166,6 +1166,74 @@ textarea {
 }
 
 /* ==========================================================================
+    CDC
+   ========================================================================== */
+
+.section-cdc .cdc-content {
+    background: url(../img/extracurriculares-bg.jpg) no-repeat center;
+    height: 1530px;
+    width: 100%;
+    position: relative;
+}
+.section-cdc .cdc-content h1 {
+    color: #be2025;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+}
+.section-cdc .cdc-content .item-container {
+    position: absolute;
+    width: 300px;
+}
+.section-cdc .cdc-content .item-container h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.section-cdc .cdc-content .item-container.odd {
+    color: #be2025;
+}
+.section-cdc .cdc-content .item-container.even {
+    color: #151e54;;
+}
+.section-cdc .cdc-content .item-container p {
+    font-size: 14px;
+}
+.section-cdc .cdc-content .item-container.item-baile {
+    top: 15px;
+    right: 50px;
+}
+.section-cdc .cdc-content .item-container.item-atletismo {
+    top: 250px;
+    right: 50px;
+}
+.section-cdc .cdc-content .item-container.item-idiomas {
+    top: 455px;
+    right: 50px;
+}
+.section-cdc .cdc-content .item-container.item-pintura {
+    top: 650px;
+    right: 50px;
+}
+.section-cdc .cdc-content .item-container.item-karate {
+    top: 615px;
+    left: 75px;
+}
+.section-cdc .cdc-content .item-container.item-ajedrez {
+    top: 810px;
+    left: 75px;
+}
+.section-cdc .cdc-content .item-container.item-robotica {
+    top: 1010px;
+    left: 75px;
+}
+.section-cdc .cdc-content .item-container.item-esgrima {
+    top: 1205px;
+    left: 75px;
+}
+
+/* ==========================================================================
     Footer
    ========================================================================== */
 
