@@ -1092,6 +1092,79 @@ textarea {
     margin-right: 100px;
 }
 
+
+/* ==========================================================================
+    Preescolar
+   ========================================================================== */
+
+.section-prescolar h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #151e54;
+}
+.section-prescolar .prescolar-content {
+    background: url(../img/prescolar-bg.jpg) no-repeat center;
+    height: 1310px;
+    width: 100%;
+    position: relative;
+}
+.section-prescolar .prescolar-content .item-container {
+    width: 210px;
+    position: absolute;
+}
+.section-prescolar .prescolar-content .item-container h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #be2025;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.section-prescolar .prescolar-content .item-container p {
+    text-align: center;
+    color: #151e54;
+    font-size: 14px;
+}
+.item-container.item-neuromotor {
+    top: 20px;
+    left: 260px;
+}
+.item-container.item-lectoescritura {
+    top: 20px;
+    right: 20px;
+}
+.item-container.item-inteligencia {
+    top: 290px;
+    left: 40px;
+}
+.item-container.item-numeracion {
+    top: 320px;
+    right: 275px;
+}
+.item-container.item-tecnologico {
+    top: 550px;
+    left: 275px;
+}
+.item-container.item-logico {
+    top: 530px;
+    right: 20px;
+}
+.item-container.item-valores {
+    top: 780px;
+    left: 20px;
+}
+.item-container.item-baul {
+    top: 780px;
+    right: 275px;
+}
+.item-container.item-audiciones {
+    top: 1020px;
+    left: 265px;
+}
+.item-container.item-paseos {
+    top: 1030px;
+    right: 25px;
+}
+
 /* ==========================================================================
     Footer
    ========================================================================== */
