@@ -108,6 +108,7 @@ textarea {
 .header .logo {
     width: 290px;
     margin: 15px;
+    float: left;
 }
 
 .header .social-links {
@@ -125,23 +126,29 @@ textarea {
 }
 
 .header .top-menu {
-    background: url(../img/online-menu.jpg) no-repeat;
+    background: #080f3a;
+    position: relative;
     clear: right;
     float: right;
     padding: 0;
-    width: 340px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 120px;
+    width: 370px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 200px;
     text-transform: uppercase;
     list-style: none;
     margin-top: 10px;
 }
-
+.header .top-menu li.c-online {
+    position: absolute;
+    left: 0;
+    top: -6px;
+}
 .header .top-menu li {
     float: left;
     margin-left: 10px;
-    font-size: 9px;
+    font-size: 11px;
+    font-weight: bold;
 }
 .header .top-menu li::before {
     content: "|";

@@ -29,7 +29,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="header">
+        <div class="header clearfix">
             <div class="content-wrapper">
                 <a href="<?php echo $root_path; ?>"><img class="logo" src="<?php echo $images_path; ?>logo.jpg" alt="Asociacion Promotora de Centros Educativos"></a>
                 <ul class="social-links">
@@ -38,6 +38,7 @@
                     <li class="facebook"><a href="#"><img src="<?php echo $images_path; ?>icon-facebook.jpg" alt="Facebook"></a></li>
                 </ul>
                 <ul class="top-menu">
+                    <li class="c-online"><a href="#"><img src="<?php echo $images_path; ?>conline.png" width="140"></a></li>
                     <li><a href="#">Padres</a></li>
                     <li><a href="#">Alumnos</a></li>
                     <li><a href="#">Maestros</a></li>
