@@ -1,6 +1,10 @@
         <div class="footer">
             <div class="content-wrapper clearfix">
-                
+                <ul class="footer-menu">
+                    <li><a href="#"><img src="<?php echo $images_path; ?>links-contacto.png" alt="Contactenos"></a></li>
+                    <li><a href="#"><img src="<?php echo $images_path; ?>links-links.png" alt="Links"></a></li>
+                    <li><a href="#"><img src="<?php echo $images_path; ?>links-empleo.png" alt="Empleos"></a></li>
+                </ul>
             </div>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
